@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="bootstrap-4.5.3-dist/css/bootstrap-grid.min.css" rel="stylesheet" type="text/css"/>
+        <link href="bootstrap-4.5.3-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+
+        <link href="CSS/estilos.css" rel="stylesheet" type="text/css"/>
+        
+    </head>
+    <body>
+            
+    <div class="booking-form-box">
+    <div class="radio-btn">
+    <input type="radio" class="btn" name="cheack" checked="checked"><span>Roundtrip</span>
+    <input type="radio" class="btn" name="cheack"><span>One Way</span>
+    <input type="radio" class="btn" name="cheack"><span>Multy-City</span>      
+    </div>   
+    
+    <div class="booking-form">
+    <label>Flying from</label>  
+    <input type="text" class="form-control" placeholder="City or Airport">
+    <label>Flying to</label>
+    <input type="text" class="form-control" placeholder="City or Airport">
+        
+    <div class="input-grp">
+    <label>Departing</label>
+    <input type="date" class="form-control select-date">
+    </div>
+    
+    <div class="input-grp">
+    <label>Returning</label>
+    <input type="date" class="form-control select-date">
+    </div>
+    
+    <div class="input-grp">
+    <label>Adults</label>
+    <input type="number" class="form-control" value="1">
+    </div> 
+    
+    <div class="input-grp">
+    <label>Children</label>
+    <input type="date" class="form-control" value="0">
+    </div> 
+    
+    <div class="input-grp">
+    <label>Travel class</label>
+    <select class="custom-select">
+    <option value="1">Economy Class</option>
+    <option value="2">Business Class</option>
+    </select>
+    </div> 
+    
+    <div class="input-grp">
+    <button type="button" class="btn btn-primary flight">Show Flights</button>    
+    </div>
+    </div>
+    </div>  
+    </body>
+    
+</html>

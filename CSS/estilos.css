@@ -1,0 +1,427 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 24, 2020, 4:53:31 PM
+    Author     : Alber
+*/
+
+.ofertas{
+    position:absolute;
+    display:block;top:10px;
+    color:black;
+}
+
+body{
+    padding-top: 100px;
+    color: black;
+ /*   border: 2px solid blue;   */
+        font-family: 'PT Sans', sans-serif !important;
+        
+}
+
+.slider-perso{
+    background-color: black !important;
+    color:white !important;
+    text-align: center !important;
+    height: 200px;
+  
+}
+
+input{
+border-radius:5px;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+}
+
+select{
+-webkit-appearance: button;
+border-radius:5px;
+-moz-border-radius:5px;
+-webkit-border-radius:5px; 
+}
+
+.form-control{
+    color: black;
+    background-color: black;
+}
+
+
+
+#form-reserva{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e6e6e6;
+    color: black;
+    font-weight: normal;
+    max-width: 600px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    /*background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(6,6,179,1) 100%, rgba(0,166,200,1) 100%); 
+    */
+}
+
+
+/*alinea la primera coluna del formulario*/
+.form-reserva-alinea{
+   /* border: 3px yellow solid; */
+    width: 55px !important;
+    text-align: right;
+
+}
+
+#exampleFormControlSelect1, #example-date-input {
+    color: black !important;
+}
+
+.fieldssad {
+    color: black !important;
+}
+
+.box-flights{
+    -webkit-box-shadow: 0px 0px 15px -5px #000000; 
+    box-shadow: 0px 0px 15px -5px #000000;
+    padding: 25px 25px 35px 25px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+
+#page-container{
+    min-height: 100vh;
+    position: relative;
+}
+
+
+#content-wrap{
+    margin-left: 75px;
+    margin-right: 75px;
+    padding-bottom: 200px;
+}
+
+
+.navi {
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed !important;
+    z-index: 1;
+    
+   /* border: 2px solid orange; */
+    color:black;
+    background-color:white;/*#e3e3e3; */
+    -webkit-box-shadow: 1px 0px 11px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 0px 11px 0px rgba(0,0,0,0.75); 
+    background-color: #e0e0e0;  
+}
+
+a:hover{
+    text-decoration: none !important;
+}
+
+
+
+.navi-in{
+    vertical-align: middle;
+    text-align: center;
+    margin-left: 25px;
+
+}
+
+  
+.footer-container{
+    width: 100%;
+    height: 150px;
+    position: absolute;
+    bottom: 0;
+    /*border: 2px solid yellow !important;*/
+    background-color: #272727;
+    color: white;
+  }
+  
+    
+.contenedor-tabla{
+    display: table;
+    /*border: 2px solid purple;*/
+    /*margin-left: 75px;
+    margin-right: 75px;*/
+}
+
+
+.contenedor-tabla-navi{
+    display: table;
+    /*border: 2px solid purple;*/
+    /*margin-left: 75px;*/
+    margin-left: 50px;
+}
+
+
+.contenedor-fila{
+    display: table-row;
+    border: 2px solid blue;
+}
+
+
+.contenedor-columna{
+    display: table-cell;
+    /*border: 2px solid lightblue;*/
+    padding-left: 75px;
+    padding-top: 10px;
+}
+
+
+.contenedor-columna-navi{
+    display: table-cell;
+    /*border: 2px solid lightblue;*/
+    padding-left: 10px;
+}
+
+
+h2{
+    text-align: center;
+    color: black;
+}
+
+
+/* 
+*  TEST
+*/
+
+
+
+.booking-form-box{
+   max-width: 350px;
+   border: 1px solid #ced4da;
+ /*  magin: 10% auto 0;   */
+}
+.radio-btn{
+    margin: 0 20px;
+}
+
+.radio-btn .btn{
+    margin: 20px 10px 20px 0;
+    box-shadow: none;
+}
+
+.radio-btn .btn::after{
+    margin: 20px 10px 20px 0;
+    box-shadow: none;
+    content: '';
+    height: 15px;
+    width: 15px;
+    top: -2px;
+    left: -1px;
+    background-color: #fff;
+    position: relative;
+    display: inline-block;
+    border: 3px solid #fff;
+    visibility: visible;
+    border-radius: 50%;
+}
+
+radio-btn .btn:checked ::after{
+    content: '';
+    background-color: #000;
+    transition: 0.5s;
+}
+.radio-btn span{
+    color: #fff;
+    margin-right: 5px;
+    font-size: 12px;
+    
+}
+
+.booking-form{
+    padding: 0 20px 20px;
+}
+.booking-form label{
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #fff;  
+}
+
+input::placeholder{
+    color: #fff !important;
+}
+
+.input-grp{
+    width: 151px;
+    display: inline-block;
+}
+
+.form-control{
+    font-size: 12px!important;
+    border-radius: 0!important;
+    color: #fff!important;
+    background: transparent!important;
+    box-shadow: none!important;
+}
+
+.select-date::-webkit-inner-spin-button,
+.select-date::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.select-date::-webkit calender-picker-indicator{
+    background: transparent!important;
+}
+    
+.custom-select{
+    color: #fff!important;
+    font-size: 12px!important;
+    border: 1px solid #ced4da!important;
+    box-shadow: none!important;
+    border-radius: 0!important;
+    background: transparent!important;
+}
+.custom-select option{
+    color: #333;
+}
+.flight{
+    width: 100%;
+    padding: 9px 0!important;
+    font-size: 12px!important;
+    border: 1px solid #ced4da!important;
+    background: transparent!important;
+    box-shadow: none!important;
+    border-radius: 0!important;
+}
+.flight:hover{
+    background: transparent!important;
+    color: #000!important;
+    transition: 0.5s;
+}
+/*
+contactanos
+*/
+
+
+.container{
+    position: relative;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+  /*  width: 100%;
+    height: 100%; */
+    padding: 20px 100px;
+    color: black;
+}
+
+.container:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: url("img/background.jpg") no-repeat center;
+    background-size: cover;
+    z-index: -1;
+    filter: blur(50px);
+}
+.container-box{
+    max-width: 850px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.19);
+ /*   grid-template-columns: repeat(2,1fr);   */
+
+}
+.left{
+    height: 100%;
+    background: url("img/background.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.right{
+   /* padding: 25px 40 px;  */
+}
+
+h1:after{
+    content: '';
+    position: absolute;
+    margin: 0 auto;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 50px;
+    border-radius: 2px;
+}
+.field{
+    width: 100%;
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: 2px solid rgba(0,0,0,0);
+    background-color: rgba(230,230,230,0.6); 
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+    transition: .3s;
+}
+
+.field:hover{
+    background-color: rgba(0,0,0,0.1);
+}
+.field:focus{
+    background-color: #fff;
+    border: 2px solid rgba(30,85,250,0.47);
+}
+.area{
+    min-height: 150px;
+}
+.btn{
+    width: 100%;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    background-color: #2ecc71;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: #fff;
+    transition: .3s;
+}
+.btn:hover{
+    background-color: #27ae60;
+}
+@media screen and (max-width:880px){
+    .contact-box{
+/*        grid-template-columns: 1fr;          */
+    }
+    .left{
+        height: 200px;
+    }
+}
+
+.body-contactenos{
+    color: black;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    
+}
+ 
+
+/*
+
+
+#{
+    pandding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+*/

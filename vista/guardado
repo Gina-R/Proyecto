@@ -1,0 +1,120 @@
+<form id="form-reserva" class="box-flights">
+                <h2>Personaliza tu vuelo</h2>
+                <br>
+
+            <!-- SELECCIONA ORIGEN Y DESTINO -->
+            <div class="row"> 
+                <div class="col">
+                    <div class="form-horizontal">
+                        
+                        
+                        <!-- RADIO IDA REGRESO -->
+                        <div class="form-group row">
+                        <div class="col-8">
+                        <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                        <label class="custom-control-label" for="customRadioInline1">Solo ida</label>
+                        </div>
+                        <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+                        <label class="custom-control-label" for="customRadioInline2">Ida y regreso</label>
+                        </div>
+                        </div>
+                        </div>
+                        
+                        
+                        
+                        
+                        <!-- ORIGEN -->
+                        <div class="form-group row">
+                        <br><br>
+                        <div class="col-7">
+                        <label for="exampleFormControlSelect1" class="form-reserva-alinea">Origen</label>
+                        <select id="exampleFormControlSelect1">
+                        <option>Selecciona el país de origen</option>
+                        <option>Costa Rica</option>
+                        <option>Panamá</option>
+                        <option>Colombia</option>
+                        <option>Brasil</option>
+                        <option>Canadá</option>
+                        </select>
+                        </div>
+                        </div>
+
+
+                        <!-- DESTINO -->
+                        <div class="form-group row">
+                        <div class="col-7">
+                        <label for="exampleFormControlSelect1" class="form-reserva-alinea">Destino</label>
+                        <select id="exampleFormControlSelect1">
+                        <option>Selecciona el país de destino</option>
+                        <option>Costa Rica</option>
+                        <option>Panamá</option>
+                        <option>Colombia</option>
+                        <option>Brasil</option>
+                        <option>Canadá</option>
+                        </select>
+                        </div>
+                        </div>
+
+
+                        <!-- FECHA DE SALIDA -->                            
+                        <div class="form-group row">
+                        <div class="col-7">
+                        <label for="example-date-input" class="form-reserva-alinea">Salida</label>
+                        <input type="date" value="2020-10-27" id="example-date-input">
+                        </div>
+                        </div>
+                        
+                        
+                        <!-- FECHA DE REGRESO -->
+                        <div class="form-group row">
+                        <div class="col-7">
+                        <label for="example-date-input" class="form-reserva-alinea">Regreso </label>
+                        <input type="date" value="2020-10-28" id="example-date-input">
+                        </div> 
+                        </div>
+                        
+                        
+                        <!-- ADULTOS -->
+                        <div class="form-group row">
+                        <div class="col-7">
+                        <label class="form-reserva-alinea" for="exampleFormControlSelect1">Adultos</label>
+                        <select id="exampleFormControlSelect1">
+                        <option>0</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        </select>
+                        </div> 
+                        </div>
+                        
+                        
+                        <!-- NIÑOS -->
+                        <div class="form-group row">
+                        <div class="col-7">
+                        <label class="form-reserva-alinea" for="exampleFormControlSelect1">Niños</label>
+                        <select id="exampleFormControlSelect1">
+                        <option>0</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        </select>
+                        </div> 
+                        </div>
+                        
+                        
+                        <!-- BOTON RESERVAR -->
+                        <div class="row">
+                        <div class="col-3">&nbsp;</div>
+                        <button type="submit" class="col-6 btn btn-primary">Reservar vuelo</button>
+                        <div class="col-3">&nbsp;</div>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </form>
