@@ -11,7 +11,7 @@
       <div id="content-wrap"> 
           
             <?php  
-              include_once('./vista/buscador_viajes.php');
+            //  include_once('./vista/buscador_viajes.php');
             ?>
              
 
